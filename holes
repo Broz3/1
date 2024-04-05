@@ -1,0 +1,18 @@
+running = True
+while running:
+    quiz1 = input("""Is Tho's nostrils expansive?
+    a. yes
+    b. no
+    """)
+    if quiz1 == 'a':
+        print('correct!')
+    else:
+        print(f"{quiz1!r} is incorrect!")
+    quiz2 = input("""How much does Tho weigh?
+    a. 75kg
+    b. 7500kg
+    """)
+    if quiz2 == 'b':
+        print('correct!')
+    else:
+        print(f"{quiz2!r} is incorrect!")
